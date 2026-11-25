@@ -129,6 +129,10 @@ section{padding-block:72px}
 .route .shot{margin:-24px -24px 0;border-radius:10px 10px 0 0;overflow:hidden;aspect-ratio:16/9}
 .route .shot img{width:100%;height:100%;object-fit:cover}
 
+.video-frame{max-width:960px;aspect-ratio:16/9;border-radius:10px;overflow:hidden;background:#000}
+.video-frame iframe{width:100%;height:100%;border:0}
+.video-link{margin-top:14px;color:var(--muted)}
+
 /* Безопасность */
 .safe{background:var(--water);color:var(--on-water)}
 .safe .sec-head .mono,.safe .sec-head p{color:var(--on-water-muted)}
@@ -377,6 +381,17 @@ footer.site .in{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-b
     </div>
   </section>
 
+  <section id="video" class="gut">
+    <div class="in">
+      <div class="sec-head">
+        <span class="mono">Видео с Ладоги</span>
+        <h2>Ноябрьские нерпы</h2>
+        <p>Посмотрите на Ладожские шхеры и их обитателей в нашем видео.</p>
+      </div>
+      <div class="video-frame"><iframe src="https://vk.ru/video_ext.php?oid=-225456144&amp;id=456239025&amp;autoplay=0" title="Ноябрьские нерпы — видео ЛадогаТрэвелру" loading="lazy" allow="encrypted-media; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+      <p class="video-link"><a href="https://vkvideo.ru/video-225456144_456239025" target="_blank" rel="noopener">Смотреть видео в VK Видео</a></p>
+    </div>
+  </section>
   <section class="safe gut">
     <div class="in">
       <div class="sec-head">
